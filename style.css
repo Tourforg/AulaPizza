@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(./img/telaFundo.jpg);
+}
+
+/*Cabeçalho*/
+
+.cabeçalho{
+    background-color: crimson;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+header h1{
+    color: azure;
+    font-size: 60px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    list-style: none;
+    margin-left: 15px;  
+}
+
+.menu li a{
+    color: azure;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid green;
+    border-radius: 10px;
+    font-size: 15px;
+    display: block;
+    transition: .2s;
+}
+
+.menu li a:hover{
+    background-color: rgb(243, 255, 255);
+    color: crimson;
+    font-size: 15px;
+    border: 1px solid white;
+    font-weight: bolder;
+    
+
+}
+
+/*Principal*/
+.principal{
+    padding: 0px;
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+}
+.principal section{
+    padding: 20px;
+    background-color: gray;
+}
+.principal section h1{
+    color: azure;
+    text-align: center;
+    font-size: 36px;
+}
+.principal section ul{
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.principal section ul li{
+    margin: 20px auto;
+    padding: 10px;
+    width: 750px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: azure;
+}
+.image{
+    max-width: 95%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.nome{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+}
+.ingredientes{
+    font-size: 14px;
+    margin: 10px;
+}
+.preço{
+    font-size: 20px;
+    color: crimson;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Rodapé */
+.rodape{
+    background-color: crimson;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    
+}
+.rodape .redes{
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.rodape .redes p{
+    margin-bottom: 10px;
+}
+.rodape .redes a{
+    margin: 12px;
+}
+.rodape .redes .logo{
+    max-width: 80px;
+    width: 80%;
+}
